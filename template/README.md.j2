@@ -32,7 +32,7 @@ conda activate {{ package_name }}
 If you need jupyter lab, install it 
 
 ```
-(conda_env) $ pip install jupyterlab
+({{ package_name }}) $ pip install jupyterlab
 ```
 
 
@@ -41,17 +41,10 @@ If you need jupyter lab, install it
 To install, run
 
 ```
-(conda_env) $ pip install -e ".[test,doc]"
+({{ package_name }}) $ pip install -e ".[test,doc]"
 ```
 
-To run style checks:
-
-```
-(conda_env) $ pip install pre-commit
-(conda_env) $ pre-commit run -a
-```
-
-### Run style checks, coverage, and tests
+### Run tests and coverage
 
 ```
 (conda_env) $ pip install tox
