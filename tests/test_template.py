@@ -11,7 +11,7 @@ def test_template(copie):
         "src/project_name",
         "docs",
         "notebooks",
-        "data"
+        "data",
         "tests",
     ]
 
