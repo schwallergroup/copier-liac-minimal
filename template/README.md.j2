@@ -1,7 +1,6 @@
-![Project Logo](assets/banner.png)
+![Project Logo](https://raw.githubusercontent.com/{{ github_org }}/{{ project_name }}/main/assets/banner.png)
 
-[![Code style: ruff-format](https://img.shields.io/badge/code%20style-ruff_format-6340ac.svg)](https://github.com/astral-sh/ruff)
-![Coverage Status](https://raw.githubusercontent.com/{{ github_org }}/{{ project_name }}/main/coverage-badge.svg)
+![Coverage Status](https://raw.githubusercontent.com/{{ github_org }}/{{ project_name }}/main/assests/coverage-badge.svg)
 
 <h1 align="center">
 {{ project_name }}
@@ -67,13 +66,5 @@ To install the package, run
 (conda_env) $ tox
 ```
 
-### Generate coverage badge
-
-Works after running `tox`
-
-```
-(conda_env) $ pip install "genbadge[coverage]"
-(conda_env) $ genbadge coverage -i coverage.xml
-```
 
 
