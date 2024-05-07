@@ -10,7 +10,8 @@ def test_template(copie):
         "src",
         "src/project_name",
         "docs",
-        "docs/source",
+        "notebooks",
+        "data"
         "tests",
     ]
 
