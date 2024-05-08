@@ -13,8 +13,16 @@
 
 ## 🔥 Usage
 
-> TODO show in a very small amount of space the **MOST** useful thing your package can do.
-> Make it as short as possible! You have an entire set of docs for later.
+```python
+from mypackage import main_func
+
+# One line to rule them all
+result = main_func(data)
+```
+
+This usage example shows how to quickly leverage the package's main functionality with just one line of code (or a few lines of code). 
+After importing the `main_func` (to be renamed by you), you simply pass in your `data` and get the `result` (this is just an example, your package might have other inputs and outputs). 
+Short and sweet, but the real power lies in the detailed documentation.
 
 ## 👩‍💻 Installation
 
@@ -26,6 +34,7 @@ conda create -n {{ package_name }} python=3.10
 
 ```
 conda activate {{ package_name }}
+(conda_env) $ pip install .
 ```
 
 If you need jupyter lab, install it 

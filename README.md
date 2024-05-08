@@ -4,7 +4,7 @@
 
 _As simple as possible. No magic._
 
-Adapted from [copier-pylib](https://github.com/astrojuanlu/copier-pylib).
+Adapted from [copier-pylib](https://github.com/astrojuanlu/copier-pylib) and [snekpack](https://github.com/cthoyt/cookiecutter-snekpack).
 
 ## Features
 
